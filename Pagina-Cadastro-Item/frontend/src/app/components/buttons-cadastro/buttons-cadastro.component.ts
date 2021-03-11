@@ -20,7 +20,7 @@ export class ButtonsCadastroComponent implements OnInit {
 
   listItemBtn(): void {
     this.CadastroItem.listItem();
-  }
-  
+  };
+
 
 }
