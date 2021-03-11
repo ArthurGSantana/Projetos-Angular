@@ -1,0 +1,28 @@
+<mat-card class="mat-form" >
+  <form>
+    <i class="material-icons" appRed>
+      add_shopping_cart
+    </i>
+    <mat-form-field>
+      <input type="number" min="1" matInput placeholder="Qtde Dísponivel" name="qtde" color='primary' [(ngModel)]="itens.qtde">
+    </mat-form-field>
+    <i class="material-icons" appRed>
+      tv
+    </i>
+    <mat-form-field>
+        <input matInput placeholder="Item" name="item" [(ngModel)]="itens.item">
+    </mat-form-field>
+    <i class="material-icons" appRed>
+      card_travel
+    </i>
+    <mat-form-field>
+      <input matInput placeholder="Marca" name="marca" [(ngModel)]="itens.marca">
+  </mat-form-field>
+  </form>
+
+  <app-buttons-cadastro></app-buttons-cadastro>
+</mat-card>
+<div *ngIf="viewTable">
+  <app-tabela-item class="tabela"></app-tabela-item>
+</div> 
+

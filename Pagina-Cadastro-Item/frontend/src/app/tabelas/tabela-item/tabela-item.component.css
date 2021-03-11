@@ -1,0 +1,19 @@
+span{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  width: 600px;
+
+}
+
+table {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+}
+

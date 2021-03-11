@@ -1,0 +1,17 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  width: 300px;
+}
+
+button {
+  width: 120px;
+  font-size: 0.9rem;
+  background-color: rgb(245, 240, 233);
+}
